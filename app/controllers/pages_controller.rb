@@ -17,4 +17,6 @@ class PagesController < ApplicationController
   end
   def investiture
   end
+  def humanitarian
+  end
 end
