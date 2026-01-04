@@ -19,4 +19,6 @@ class PagesController < ApplicationController
   end
   def humanitarian
   end
+  def hunger
+  end
 end

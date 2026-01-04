@@ -15,6 +15,11 @@ get "investiture", to:"pages#investiture"
 get "humanitarian", to:"pages#humanitarian"
 get "disaster", to:"pages#disaster"
 get "enviroment", to:"pages#enviroment"
+get "hunger", to:"pages#hunger"
+get "childhood", to:"pages#childhood"
+get "vission", to:"pages#vission"
+get "youth", to:"pages#youth"
+get "diabetes", to:"pages#diabetes"
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
   # Can be used by load balancers and uptime monitors to verify that the app is live.
   get "up" => "rails/health#show", as: :rails_health_check
